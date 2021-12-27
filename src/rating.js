@@ -71,7 +71,6 @@ const IconData = `
 
 const RatingMetadata = {
   id: 'custom-rating',
-  P: 0,
   icon: IconData,
   label: 'Rating',
   category: 'Basics',
@@ -101,4 +100,4 @@ const RatingMetadata = {
   ]
 }
 
-zySdk.services.registry.registerComponent(RatingMetadata, RatingComponent, false)
+zySdk.services.registry.registerComponent(RatingMetadata, RatingComponent)
