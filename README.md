@@ -1,4 +1,4 @@
-# Zyllio Plugin Meme Generator
+# Zyllio Plugin Rating Component
 
 This Zyllio plugin implements a simple Component Rating
 
