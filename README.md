@@ -1,6 +1,6 @@
 # Zyllio Plugin Rating Component
 
-This Zyllio plugin implements a simple Component Rating
+This Zyllio plugin implements a simple Rating Component
 
 The property `value` gives the number of stars
 
