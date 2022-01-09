@@ -95,7 +95,7 @@ const RatingMetadata = {
     id: 'height',
     name: 'Height',
     type: 'height',
-    default: '30px'
+    default: '50px'
   }
   ]
 }

@@ -8,6 +8,11 @@ The property `value` gives the number of stars
 
 <img src="./snapshots/demo.gif">
 
+# Experiment
+
+Install this pre-built file to experiment the plugin:
+> `https://zyllio.github.io/zyllio-plugin-rating/src/rating.js`
+
 # Development environment
 
 Node.js 14+ is required
