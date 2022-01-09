@@ -11,7 +11,9 @@ The property `value` gives the number of stars
 # Experiment
 
 Install this pre-built file to experiment the plugin:
-> `https://zyllio.github.io/zyllio-plugin-rating/src/rating.js`
+```
+https://zyllio.github.io/zyllio-plugin-rating/src/rating.js
+```
 
 # Development environment
 
