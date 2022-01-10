@@ -73,7 +73,7 @@ const RatingMetadata = {
   id: 'custom-rating',
   icon: Icon,
   label: 'Rating',
-  category: 'Basics',
+  category: 'Plugins',
   subCategory: 'Plugins',
   hidden: false,
   keepRatio: false,
