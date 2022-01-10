@@ -74,7 +74,7 @@ const RatingMetadata = {
   icon: Icon,
   label: 'Rating',
   category: 'Plugins',
-  subCategory: 'Plugins',
+  subCategory: 'Ratings',
   hidden: false,
   keepRatio: false,
   properties: [{
