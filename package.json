@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
-    "deploy": "lt --port 3000"
+    "tester": "zyllio ./src rating.js custom-rating"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@zyllio/zy-sdk": "latest",
-    "localtunnel": "^2.0.2",
-    "serve": "^13.0.2"
+    "@zyllio/zy-cli": "latest"
+  },
+  "dependencies": {
   }
 }

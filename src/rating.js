@@ -8,6 +8,8 @@ const HtmlContent = `
     :host {
       overflow: hidden;
       font-size: 30px;
+      width: 100%;
+      height: 50px;
     }
   </style>
 
@@ -85,19 +87,7 @@ const RatingMetadata = {
     default: '3',
     main: true
   }],
-  styles: [{
-    id: 'width',
-    name: 'Width',
-    type: 'width',
-    default: '340px'
-  },
-  {
-    id: 'height',
-    name: 'Height',
-    type: 'height',
-    default: '50px'
-  }
-  ]
+  styles: []
 }
 
 zySdk.services.registry.registerComponent(RatingMetadata, RatingComponent)
