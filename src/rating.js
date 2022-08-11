@@ -9,7 +9,9 @@ const HtmlContent = `
       overflow: hidden;
       font-size: 30px;
       width: 100%;
-      height: 50px;
+      height: 70px;
+      padding: 10px;
+      box-sizing: border-box;
     }
   </style>
 
