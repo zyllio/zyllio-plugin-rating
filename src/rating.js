@@ -54,9 +54,9 @@
       this.refresh()
     }
 
-    async refresh() {
+    refresh() {
 
-      setTimeout(() => {
+      setTimeout( async () => {
 
         const element = this.shadowRoot.querySelector('div')
 
