@@ -2,5 +2,6 @@
   "name": "Rating Plugin",
   "description": "This plugins provides a convenient Rating Component",
   "company": "Zyllio team",
-  "icon": "https://studio.zyllio.com/assets/icon.png"
+  "icon": "https://studio.zyllio.com/assets/icon.png",
+  "version": "1.0.0"
 }

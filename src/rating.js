@@ -54,7 +54,7 @@
       this.refresh()
     }
 
-    refresh() {
+    async refresh() {
 
       setTimeout(() => {
 
@@ -62,7 +62,7 @@
 
         const propertyValue = zySdk.services.component.getPropertyValue(this, 'value')
 
-        const value = zySdk.services.dictionary.getValue(propertyValue)
+        const value = await zySdk.services.dictionary.getValue(propertyValue)
 
         element.innerText = '⭐'.repeat(parseInt(value))
       })
