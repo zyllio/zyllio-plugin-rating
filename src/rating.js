@@ -1,5 +1,3 @@
-/// <reference types="@zyllio/zy-sdk" />
-
 (function () {
 
   console.log('Plugin Rating started')
