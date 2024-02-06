@@ -17,7 +17,7 @@ https://zyllio.github.io/zyllio-plugin-rating/src/rating.js
 
 # Development environment
 
-Node.js 14+ is required
+Node.js 18+ is required
 
 # Build
 
