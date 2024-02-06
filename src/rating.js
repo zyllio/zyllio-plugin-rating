@@ -66,7 +66,7 @@
     icon: Icon,
     label: 'Rating',
     category: 'Plugins',
-    subCategory: 'Ratings',
+    subCategory: 'Plugins',
     hidden: false,
     keepRatio: false,
     properties: [{
