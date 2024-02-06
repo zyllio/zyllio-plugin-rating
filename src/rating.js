@@ -30,22 +30,11 @@
 
       this.shadow.innerHTML = HtmlContent;
 
-      setTimeout(() => { this.init() })
-
       this.refresh()
     }
 
-    init() {
-
-      const propertyValue = zySdk.services.component.getPropertyValue(this, 'value')
-
-      zySdk.services.dictionary.onChange(propertyValue, () => {
-        this.refresh()
-      })
-    }
-
     static get observedAttributes() {
-      return ['data-value'];
+      return ['value'];
     }
 
     attributeChangedCallback() {
@@ -54,13 +43,11 @@
 
     refresh() {
 
-      setTimeout( async () => {
+      setTimeout(async () => {
 
         const element = this.shadowRoot.querySelector('div')
 
-        const propertyValue = zySdk.services.component.getPropertyValue(this, 'value')
-
-        const value = await zySdk.services.dictionary.getValue(propertyValue)
+        const value = this.getAttribute('value')
 
         element.innerText = '⭐'.repeat(parseInt(value))
       })
@@ -75,6 +62,7 @@
 
   const RatingMetadata = {
     id: 'custom-rating',
+    metadataVersion: 2,
     icon: Icon,
     label: 'Rating',
     category: 'Plugins',
